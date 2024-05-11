@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Colin
-middle_name: R.
+middle_name:
 last_name: Toomey
 email: colinrtoomey1@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -127,7 +127,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: light lab # blog_name will be displayed in your blog page
+blog_name: reddogsec # blog_name will be displayed in your blog page
 blog_description: this is my blog. it includes my write-ups of CTFs, labs, projects i'm working on and more.
 permalink: /blog/:year/:title/
 
@@ -592,9 +592,9 @@ jsonresume:
   - basics
   - work
   - education
-  - publications
+  # - publications
   - projects
-  - volunteer
+  # - volunteer
   - awards
   - certificates
   - skills
