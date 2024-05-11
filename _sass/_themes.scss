@@ -7,8 +7,8 @@
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #171612;
   --global-text-color-light: #494B5B;
-  --global-theme-color: #E3DD26;
-  --global-hover-color: #E3DD26;
+  --global-theme-color: #FFC857;
+  --global-hover-color: #FFC857;
   --global-hover-text-color: #E9EDDE;
   --global-footer-bg-color: #24252D;
   --global-footer-text-color: #65687B;
@@ -26,10 +26,10 @@
   --global-warning-block-bg: #fff8d8;
   --global-warning-block-text: #6b5900;
   --global-warning-block-title: #b29400;
-  --global-danger-block: #c00;
+  --global-danger-block: #DF2935;
   --global-danger-block-bg: #ffe0e0;
-  --global-danger-block-text: #600;
-  --global-danger-block-title: #c00;
+  --global-danger-block-text: #8E151D;
+  --global-danger-block-title: #DF2935;
 
   #light-toggle-system {
     padding-left: 10px;
@@ -76,10 +76,10 @@ html[data-theme="dark"] {
   --global-warning-block-bg: #fff8d8;
   --global-warning-block-text: #6b5900;
   --global-warning-block-title: #b29400;
-  --global-danger-block: #c00;
+  --global-danger-block: #DF2935;
   --global-danger-block-bg: #ffe0e0;
-  --global-danger-block-text: #600;
-  --global-danger-block-title: #c00;
+  --global-danger-block-text: #8E151D;
+  --global-danger-block-title: #DF2935;
 
   .repo-img-light {
     display: none;
