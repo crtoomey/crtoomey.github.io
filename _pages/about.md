@@ -2,12 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Cybersecurity Professional
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: tue # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>Dansville, NY 14437</p>
 
@@ -18,7 +18,7 @@ social: true # includes social icons at the bottom of the page
 
 Hi, my name is Colin Toomey. I am an aspiring cybersecurity professional who is looking to get hired as a SOC Analyst in the near future. I have quite a few interests and hobbies like playing chess, playing video games, reading, and writing. I am currently pursuing a Bachelor's of Science from SUNY Canton where I am majoring in Cybersecurity.
 
-If you would like to see some of my write-ups on Capture-the-Flags, home labs, what projects I am currently working on, and more, visit the [blog](./blog.md) page. The [projects](./projects.md) page has all of my completed web development and cybersecurity projects, feel free to take a look.
+If you would like to see some of my write-ups on Capture-the-Flags, home labs, what projects I am currently working on, and more, visit the [blog](https://crtoomey.github.io/blog/) page. The [projects](https://crtoomey.github.io/projects/) page has all of my completed web development and cybersecurity projects, feel free to take a look.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
