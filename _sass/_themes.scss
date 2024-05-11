@@ -3,19 +3,19 @@
  ******************************************************************************/
 
 :root {
-  --global-bg-color: #E9EDDE;
+  --global-bg-color: #fff;
   --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #171612;
+  --global-text-color: #262626;
   --global-text-color-light: #494B5B;
-  --global-theme-color: #FFC857;
-  --global-hover-color: #FFC857;
-  --global-hover-text-color: #E9EDDE;
+  --global-theme-color: #B3001B;
+  --global-hover-color: #B3001B;
+  --global-hover-text-color: #fff;
   --global-footer-bg-color: #24252D;
   --global-footer-text-color: #65687B;
-  --global-footer-link-color: #E9EDDE;
+  --global-footer-link-color: #fff;
   --global-distill-app-color: #494B5B;
   --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #E9EDDE;
+  --global-card-bg-color: #fff;
   --global-highlight-color: #{$red-color-dark};
 
   --global-tip-block: #42b983;
@@ -58,12 +58,12 @@ html[data-theme="dark"] {
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #65687B;
   --global-text-color-light: #494B5B;
-  --global-theme-color: #5C80BC;
-  --global-hover-color: #5C80BC;
-  --global-hover-text-color: #E9EDDE;
+  --global-theme-color: #7EA3CC;
+  --global-hover-color: #7EA3CC;
+  --global-hover-text-color: #fff;
   --global-footer-bg-color: #65687B;
   --global-footer-text-color: #24252D;
-  --global-footer-link-color: #171612;
+  --global-footer-link-color: #262626;
   --global-distill-app-color: #65687B;
   --global-divider-color: #424246;
   --global-card-bg-color: #{$grey-900};
