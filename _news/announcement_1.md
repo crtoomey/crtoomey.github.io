@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I graduate from SUNY Canton on July 28th, 2024!
+I graduate from SUNY Canton on July 28th, 2024! :sparkle:
