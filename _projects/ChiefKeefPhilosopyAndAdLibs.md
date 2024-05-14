@@ -8,7 +8,7 @@ category: fun
 related_publications: true
 ---
 
-
+This project was really just a fun and simple web application I made a few years ago while taking a Codecademy course on web development. I won't say too much about it here but if you want to learn more about it, please visit the [GitHub repository](https://github.com/crtoomey/philosopherQuotesAndSosaAdLibs).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
