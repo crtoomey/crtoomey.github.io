@@ -2,7 +2,7 @@
 layout: page
 title: projectCaesar
 description: This project is a web application that takes input, runs it through a variety of encryption algorithms
-img: assets/img/ChiefKeefGenerator.jpg
+img: 
 importance: 1
 category: work
 related_publications: true
