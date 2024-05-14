@@ -120,7 +120,7 @@ After the setbacks during enumeration and my failure to get the usernames and pa
     Internal Server Error (Image 6).
 </div>
 
-To test this method, I checked to see if I get the internal server error with a user_id I know starts with ‘s’ (sspeed) and use A' OR User_ID LIKE 's%' --. I got the internal server error and tried ‘z%’ which did not give me the internal server error. Now, I knew this method should theoretically work for passwords so I tried A' OR Password LIKE 'a%' --. This gave me the internal server error but ‘z%’ did not. Now, combining wildcards to check for the length of the password starting with ‘a’ using the injection A' OR Password LIKE 'a_%' --. I did this until I got the internal server error and note how long the password is. This immediately gave me an internal server error which seems wrong unless someone actually has a 2 character password that starts with "a" so I try to use A' OR Password LIKE 'a_' --. This doesn’t give me an internal server error so it should work. I iterated through the password length adding one _ every time until I got to 'a____' or a followed by 4 characters. I knew that a password starts with 'a' and is five characters long. I could now iterate through each character until I can guess the password. I got an internal server error at ‘ad___’ and I think I have a guess as to what this password is. I try ‘adm_ _’ and again, server error so I keep going until I get ‘admin’. Admin is a password for an account but which account/accounts? Obviously, the first guess is the admin user so I attempted the login with admin as username and password. It works. I checked this password against all other users to make sure it is only for the admin account and it was.
+To test this method, I checked to see if I get the internal server error with a user_id I know starts with ‘s’ (sspeed) and use A' OR User_ID LIKE 's%' --. I got the internal server error and tried ‘z%’ which did not give me the internal server error. Now, I knew this method should theoretically work for passwords so I tried **A' OR Password LIKE 'a%' --**. This gave me the internal server error but ‘z%’ did not. Now, combining wildcards to check for the length of the password starting with ‘a’ using the injection **A' OR Password LIKE 'a_%' --**. I did this until I got the internal server error and note how long the password is. This immediately gave me an internal server error which seems wrong unless someone actually has a 2 character password that starts with "a" so I try to use **A' OR Password LIKE 'a_' --**. This doesn’t give me an internal server error so it should work. I iterated through the password length adding one _ every time until I got to 'a____' or 'a' followed by 4 characters. I knew that a password starts with 'a' and is five characters long. I could now iterate through each character until I can guess the password. I got an internal server error at ‘ad___’ and I think I have a guess as to what this password is. I try ‘adm__’ and again, server error so I keep going until I get 'admin'. 'Admin' is a password for an account but which account/accounts? Obviously, the first guess is the admin user so I attempted the login with admin as username and password. It worked. I checked this password against all other users to make sure it is only for the admin account and it was.
 
 I did this same method for all of the other user's passwords and found a total of 3 passwords for 5 users. The username and password pairs are:
 
@@ -141,16 +141,16 @@ So how do we stop SQL injections? That is the point of this exercise after all, 
 
 I promised I would tell you what my professor was actually expecting us as students to do and I will right now. The correct answer to this lab was:
 
-  1. ' OR '' = '
-  2. ' OR '1' = '1
-  3. ' OR '2' = '2
-  4. ' OR '3' = '3
-  5. ' OR '4' = '4
-  6. ' OR '5' = '5
-  7. ' OR '6' = '6
-  8. ' OR '7' = '7
-  9. ' OR '8' = '8
-  10. ' OR '9' = '9
+  1. **' OR '' = '**
+  2. **' OR '1' = '1**
+  3. **' OR '2' = '2**
+  4. **' OR '3' = '3**
+  5. **' OR '4' = '4**
+  6. **' OR '5' = '5**
+  7. **' OR '6' = '6**
+  8. **' OR '7' = '7**
+  9. **' OR '8' = '8**
+  10. **' OR '9' = '9**
 
 Or anything that allowed for authentication bypass. I'll be honest when my professor told us this, I actually laughed out loud because what else can you do in that situation?
 
