@@ -1,7 +1,7 @@
 ---
 layout: distill
 title: SQL Injection Lab - Altoro Mutual
-description: this lab was a part of my Ethical Hacking and Penetration Testing course at SUNY Canton
+description: This lab was a part of my Ethical Hacking and Penetration Testing course at SUNY Canton
 tags: tech hacking lab
 giscus_comments: true
 date: 2024-05-13
@@ -13,20 +13,8 @@ authors:
     affiliations:
       name: 
 
-bibliography:
-
-# Optionally, you can add a table of contents to your post.
-# NOTES:
-#   - make sure that TOC names match the actual section names
-#     for hyperlinks within the post to work correctly.
-#   - we may want to automate TOC generation in the future using
-#     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
 toc:
   - name: Disclaimer
-    # if a section has subsections, you can add them as follows:
-    # subsections:
-    #   - name: Example Child Subsection 1
-    #   - name: Example Child Subsection 2
   - name: Introduction
   - name: First Approach
   - name: Setbacks
