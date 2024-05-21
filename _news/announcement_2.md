@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-projectCaesar is officially in development. Devlog coming soon!
+projectCaesar is officially in development. Blog post coming soon!
