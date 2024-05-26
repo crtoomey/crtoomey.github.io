@@ -6,7 +6,7 @@ subtitle: Cybersecurity Professional
 
 profile:
   align: right
-  image: Colin Toomey Profile Pic.jpeg
+  image: ColinToomeyProfilePic.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Dansville, NY 14437</p>
