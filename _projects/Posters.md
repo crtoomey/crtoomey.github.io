@@ -4,7 +4,7 @@ title: Creative Project - Various Posters
 description: This was a personal graphic design project that I made for fun using 
 img: assets/img/Dragon! 2.jpg
 importance: 1
-category: fun creative
+category: fun
 related_publications: true
 ---
 

@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: a collection of web development and cybersecurity projects.
+description: a collection of graphic design, web development and cybersecurity projects.
 nav: true
 nav_order: 3
 display_categories: [work, fun]
