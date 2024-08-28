@@ -12,7 +12,7 @@ These posters were something I did in my spare time and were really fun. I think
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Dragon! 2.jpg" title="Dragon!" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/DRAGON! 2.jpg" title="Dragon!" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -32,7 +32,7 @@ These posters were something I did in my spare time and were really fun. I think
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/arms length 1.jpg" title="Arms Length" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/armslength1.jpg" title="Arms Length" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
